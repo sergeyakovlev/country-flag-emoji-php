@@ -1,0 +1,45 @@
+{
+    "authors": [
+        {
+            "name": "Serge Yakovlev",
+            "email": "serge.yakovlev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/function.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SergeYakovlev\\CountryFlagEmoji\\Tests\\": "tests"
+        }
+    },
+    "description": "Country Flag Emoji for PHP",
+    "homepage": "https://github.com/sergeyakovlev/country-flag-emoji-php",
+    "keywords": [
+        "country",
+        "emoji",
+        "flag",
+        "iso-3166",
+        "iso-3166-1",
+        "iso-3166-1-alpha-2",
+        "php",
+        "unicode",
+        "utf8",
+        "utf-8"
+    ],
+    "license": "MIT",
+    "name": "sergeyakovlev/country-flag-emoji",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "type": "library",
+    "version": "1.0.0"
+}
